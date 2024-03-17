@@ -1,3 +1,9 @@
+body {
+ font-family: "EB Garamond", serif;;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
 
 .main-container {
   width: 100%;
@@ -44,8 +50,18 @@
   width: 100%;
 }
 
-    .font-awesome {
-      font-size: 24px; 
+.card-content h3 {
+font-weight: 700;
+font-size: 36px;
+}
+
+.card-content h4 {
+  font-weight: 500;
+  font-size: 24px;
+  }
+
+  .fa-solid {
+      font-size: 72px; 
       color: #F45B69;
       cursor: pointer;
     }
@@ -171,16 +187,13 @@ display: none;
   height: 100%;
   position: relative;
   display: flex;
-    }
+    } 
 
-    .footer-section {
+    .business-card-content {
+      width: 40%;
+      height: 50vh;
       display: flex;
-      flex-grow: 1;
-      flex-basis: 60%;
-      justify-content: space-between;
-      align-items: center;
-      margin: 100px 0;
-    }
+        }
 
 
 
@@ -224,6 +237,29 @@ display: none;
   }
 }
 
+
+.business-card-content-image {
+  width: 50%;  
+  max-width: 100%; 
+}
+
+.business-card-content h1 {
+  color: pink;
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+.business-card-content footer {
+  margin-top: 60px;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 80%;
+  }
+}
 
 footer {
   text-align: left;
