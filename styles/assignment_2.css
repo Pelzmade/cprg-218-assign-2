@@ -38,6 +38,10 @@ body {
   left: 10vh;
 }
 
+.main-container .main-quotes .p {
+  font-size: 20px;
+}
+
 /* content section*/
 
 .content-container {
@@ -101,11 +105,11 @@ body {
   padding: 10px;
   border-radius: 8px;
   background-color: white;
-  transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.5s, border-color 0.5s;
 }
 
 .accordian li:hover {
-  background-color: lightpink;
+  background-color: #e3d0c8;
 }
 
 .accordian li label {
