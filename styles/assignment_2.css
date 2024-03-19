@@ -18,8 +18,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 80px;
 }
+
 
 
 @media (max-width: 568px) {
