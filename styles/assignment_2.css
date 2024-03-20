@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 600px;
   background-color: lightgrey;
-  background-image: url('/assets/profilepic2.png'), url(/assets/Background.jpg);
+  background-image: url('../assets/profilepic2.png'), url(../assets/Background.jpg);
   background-size: 50vh auto, cover;
   background-repeat: no-repeat;
   background-position: bottom center, center;
@@ -178,8 +178,8 @@ display: none;
     } 
 
     .business-card-content img {
-      width: 80%;
-      height: 80%;
+      width: 60%;
+      height: 50%;
       display: flex;
         }
 
