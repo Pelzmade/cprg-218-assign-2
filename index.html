@@ -9,17 +9,20 @@
   <link rel="stylesheet" type="text/css" href="styles/global.css">
   <link rel="stylesheet" type="text/css" href="styles/assignment_2.css">
   <link rel="stylesheet" type="text/css" href="styles/cards.css">
-  <script src="https://kit.fontawesome.com/651281ade4.js" crossorigin="anonymous"></script>
+ 
   <script src="https://kit.fontawesome.com/651281ade4.js" crossorigin="anonymous"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
+
   <title>Responsive Website</title>
+
+
 </head>
 <body>
-  <section class="main-container">
+  <section class="main-container" role="main">
     <div class="main-intro">
       
       <h1>Welcome<br>to my Website</h1>
@@ -37,7 +40,7 @@
       -Nelson Mandela</p>
     </div>
   </section>
-  <section class="container content-container">
+  <section class="container content-container" role="contentinfo">
     <div class="content-section">
       <div class="Column1">
       <h2>Projects</h2>
@@ -48,12 +51,13 @@
 
    <i class="fa-solid fa-briefcase"></i> <p>Coming Soon</p>
 </div>
-    </div>
+   
     </div>
   </section>
   
-    <ul class="card-container">
-      <div class="poem-container">
+  
+  
+  <div class="poem-container">
         <section id="poems">
           <h2>Poetry</h2>
 
@@ -63,8 +67,9 @@
           <iframe width="800" height="315" src="https://www.youtube.com/embed/OXtc__9Rabk?si=5SiyJKUrq9-0lwyB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       </div>
+      <ul class="card-container">
       <li class="card">
-        <img src="assets/ridingabike.png" alt="poem in black writing on a tan background">
+        <img src="assets/ridingabike.png" alt="poem about riding a bike, by Denise Pelzmann">
         <div class="card-content">
           <h3 class="subheader">
             Poem
@@ -75,7 +80,7 @@
         </div>
       </li>
       <li class="card">
-        <img src="assets/Encapsulatedinspace.png" alt="poem in black writing on a tan background">
+        <img src="assets/Encapsulatedinspace.png" alt="poem about time and space, by Denise Pelzmann">
         <div class="card-content">
           <h3 class="subheader">
            Poem
@@ -86,7 +91,7 @@
         </div>
       </li>
       <li class="card">
-        <img src="assets/hernameishope.png" alt="poem in black writing on a tan background">
+        <img src="assets/hernameishope.png" alt="goodnight peom about having hope and gratitude for the day's end, by Denise Pelzmann">
         <div class="card-content">
           <h3 class="subheader">
            Poem
@@ -97,18 +102,18 @@
         </div>  
       </li>
       <li class="card">
-        <img src="assets/Translucentkaleidoscopes.png" alt="poem in black writing on a tan background">
+        <img src="assets/runawaytrain.png" alt="poem about the vastness of the sky and how it is boundless comparing it to a runaway train, by Denise Pelzmann">
         <div class="card-content">
           <h3 class="subheader">
             Poem
           </h3>
           <h4 class="header">
-            Swiftly set
+            Runaway Train
           </h4>
         </div>
       </li>
       <li class="card">
-        <img src="assets/followme.png" alt="poem in black writing on a tan background">
+        <img src="assets/followme.png" alt="poem about not having your own voice and following the crowd, by Denise Pelzmann">
         <div class="card-content">
           <h3 class="subheader">
            Poem
@@ -119,7 +124,7 @@
         </div>
           </li>
           <li class="card">
-            <img src="assets/mywish.png" alt="poem in black writing on a tan background">
+            <img src="assets/mywish.png" alt="poem reminding you that you are loved and a wish that you feel it, by Denise Pelzmann">
             <div class="card-content">
               <h3 class="subheader">
                Poem
@@ -133,6 +138,7 @@
         
 
   <section class="container accordion-container">
+
     <div class="accordian-section">
       <h1>More info</h1>
 
@@ -171,30 +177,31 @@
 
     </div>
   </section>
-  <section class="footer-container">
+  <section class="footer-container" role="contentinfo">
     <div class="footer-content">
       <div class="business-card-content">
         <h1>Contact info</h1>  
-        <img src="assets/Businesscard.jpg">
+        <img src="assets/Businesscard.jpg" alt="picture of a white thank you card sitting on a wooden desk">
         </div>
       </div> <br><br>
-        <div class="links">
-          <p>Links</p>
-          <div class="privacy">
-            <i class="fa-solid fa-circle-chevron-right"></i> 
+
+  <div class="links">
+      <p>Links</p>
+  
+      <div class="privacy">
+      <i class="fa-solid fa-circle-chevron-right"></i> 
             Email</div>
-              <div class="terms">
-                <i class="fa-solid fa-circle-chevron-right"></i> 
+             
+  <div class="terms">
+    <i class="fa-solid fa-circle-chevron-right"></i> 
                 Teams</div>
   
-                <div class="accessibility">
+    <div class="accessibility">
                   <i class="fa-solid fa-circle-chevron-right"></i> 
                   Phone</div>
                   
         </div>
-       
-   
-    </div>
+
     <footer>
       <p>Copyright &copy; <span id="year"></span>, Assignment #2</p>
   </footer>
